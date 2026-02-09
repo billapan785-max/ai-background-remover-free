@@ -1,0 +1,5 @@
+{
+  "name": "MagicBG - AI Background Remover",
+  "description": "A powerful, 100% client-side AI background remover powered by @imgly/background-removal. No data ever leaves your device.",
+  "requestFramePermissions": []
+}
