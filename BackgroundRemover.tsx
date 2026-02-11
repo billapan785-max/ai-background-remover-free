@@ -97,6 +97,7 @@ const BackgroundRemover: React.FC<BackgroundRemoverProps> = ({ file, onResult, o
 
   return (
     <div className="w-full space-y-6">
+      <div style={{ textAlign: 'center', marginBottom: '40px', marginTop: '20px' }}> <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', color: '#1e293b', marginBottom: '15px' }}> Free AI Background Remover </h1> <p style={{ fontSize: '1.2rem', color: '#64748b', maxWidth: '800px', margin: '0 auto', lineHeight: '1.6' }}> Remove image backgrounds instantly with our professional AI tool. High-quality transparent PNGs for TikTok Shop, E-commerce products, and social media in just one click. 100% Free & Fast. </p> </div>
       <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-indigo-50 rounded-2xl border border-indigo-100">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-200">
