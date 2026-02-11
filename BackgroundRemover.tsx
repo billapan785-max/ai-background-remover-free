@@ -97,7 +97,14 @@ const BackgroundRemover: React.FC<BackgroundRemoverProps> = ({ file, onResult, o
 
   return (
     <div className="w-full space-y-6">
-     
+      
+      <div className="flex flex-wrap items-center justify-between gap-4 p-4 bg-indigo-50 rounded-2xl border border-indigo-100">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-200">
+            <Zap className="w-5 h-5 text-white" />
+          </div>
+          <div>
+            <h4 className="font-bold text-slate-800 leading-tight">Instant Express Mode</h4>
             <p className="text-xs text-slate-500">Processing locally in &lt;100ms</p>
           </div>
         </div>
