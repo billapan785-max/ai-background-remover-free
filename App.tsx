@@ -412,6 +412,17 @@ const App: React.FC = () => {
                 <span className="text-xl font-bold tracking-tight">MagicBG</span>
               </div>
               <p className="max-w-xs leading-relaxed text-sm">Privacy-focused AI background removal tool.</p>
+              <p className="mt-4 text-xs text-slate-500">
+  Check out our partner: 
+  <a 
+    href="https://moviebox.shop" 
+    target="_blank" 
+    rel="noopener" 
+    className="ml-1 text-indigo-400 hover:text-indigo-300 underline"
+  >
+    CineWise - Hollywood Movies
+  </a>
+</p>
             </div>
             <div>
               <h6 className="text-white font-bold mb-6 text-xs uppercase">Navigation</h6>
